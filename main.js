@@ -7,10 +7,7 @@ import { Deck } from "@deck.gl/core";
 import { FlowmapLayer } from "@flowmap.gl/layers";
 import { getViewStateForLocations } from "@flowmap.gl/data";
 import { csv } from "d3-fetch";
-import maplibregl from "maplibre-gl";
 
-const MAPLIBRE_STYLE =
-  "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
 // BIXI rides
 const DATA_PATH = `https://gist.githubusercontent.com/ilyabo/68d3dba61d86164b940ffe60e9d36931/raw/a72938b5d51b6df9fa7bba9aa1fb7df00cd0f06a`;
