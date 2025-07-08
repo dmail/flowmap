@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>deck.gl example</title>
+    <style>
+      #app {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000;
+      }
+
+      #deck-canvas {
+        mix-blend-mode: screen;
+      }
+
+      #ui {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="deck-canvas"></canvas>
+      <div id="ui"></div>
+    </div>
+    <script type="module" src="./src/maplab.jsx"></script>
+  </body>
+</html>
